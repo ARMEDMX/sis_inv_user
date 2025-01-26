@@ -8,5 +8,10 @@ export default defineConfig({
             refresh: true,
             
         }),
-    ],
+    ], 
+    build: {
+        outDir: 'public/build',
+        emptyOutDir: true,
+    },
+    logLevel: 'info',
 });
