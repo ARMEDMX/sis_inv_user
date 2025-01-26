@@ -22,7 +22,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::middleware(['auth', 'admin'])->group(function () {
-    Route::resource('users/users', UserController::class);
+    Route::resource('users', UserController::class);
 });
 
 Route::middleware(['auth'])->group(function () {

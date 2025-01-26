@@ -70,7 +70,8 @@
         <!-- Mensaje descriptivo -->
         <p class="mt-3 lead">
             Lo sentimos, no tienes acceso a este contenido.<br> 
-            Por favor, <a href="/login" class="text-warning fw-bold" style="text-decoration: underline;">inicia sesión</a> para continuar.
+            Por favor, <a href="/login" class="text-warning fw-bold" style="text-decoration: underline;">inicia sesión</a> o 
+            <a href="/register" class="text-warning fw-bold" style="text-decoration: underline;">regístrate</a> para continuar.
         </p>
         
         <!-- Pie de página -->
@@ -79,6 +80,7 @@
         </figcaption>
     </div>
 </div>
+
 @endguest
 
 

@@ -11,8 +11,8 @@
         <!-- Botón para nuevo usuario -->
         <div class="d-flex justify-content-between align-items-center mb-3">
             <!-- Botón para nuevo usuario -->
-            <a href="{{ route('productos.create') }}" class="btn btn-primary btn-lg">
-                <i class="fas fa-plus"></i> Nuevo Producto
+            <a href="{{ route('users.create') }}" class="btn btn-primary btn-lg">
+                <i class="fas fa-plus"></i> Nuevo Usuario
             </a>
             
             <!-- Botón para exportar productos -->

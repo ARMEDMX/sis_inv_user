@@ -67,7 +67,8 @@
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li>
-                                    <form action="{{ route('logout') }}" method="post">
+                                    <form action="{{ route(
+                                    'logout') }}" method="post">
                                         @csrf
                                         <a class="dropdown-item text-white" href=""
                                             onclick="event.preventDefault(); this.closest('form').submit();">Cerrar Sesión</a>

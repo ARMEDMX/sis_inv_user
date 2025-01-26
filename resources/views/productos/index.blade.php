@@ -75,7 +75,7 @@
         <!-- Paginación -->
         <div class="row justify-content-lg-start">
             <div class="col-auto">
-                {{-- $productos->links() --}}
+                {{ $productos->links() }}
             </div>
         </div>
     </div>
