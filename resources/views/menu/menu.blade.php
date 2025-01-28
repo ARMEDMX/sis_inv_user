@@ -97,7 +97,7 @@
         </div>
     </div>
     
-    @vite('resources/js/app.js')
+    <script type="module" src="{{ asset('build/assets/app-B_4-lnOW.js') }}"></script>
 
 </body>
 </html>
