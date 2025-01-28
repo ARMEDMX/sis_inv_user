@@ -97,7 +97,7 @@
         </div>
     </div>
     
-    <script type="module" src="{{ asset('build/assets/app-B_4-lnOW.js') }}"></script>
+    <script src="/public/js/app.js"></script>
 
 </body>
 </html>
