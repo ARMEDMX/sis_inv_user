@@ -9,7 +9,7 @@ export default defineConfig({
                 'resources/js/app.js',
             ],
             refresh: true,
-            base: process.env.ASSET_URL || '/'
+
         }),
     ], 
     
