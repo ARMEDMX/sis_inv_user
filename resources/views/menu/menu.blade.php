@@ -21,7 +21,7 @@
                 <div class="mt-4">
 
                     <div class="logo text-white text-center">
-                        <img src="{{ asset('storage/logos/logo-cecy.png') }}" alt="Logo SIS_INV_USER" style="width: 160px; height: auto;">
+                        <img src="{{ asset('images/logo-cecy.png') }}" alt="Logo SIS_INV_USER" style="width: 160px; height: auto;">
                     </div>
 
                     <hr class="text-white d-none d-md-block">
