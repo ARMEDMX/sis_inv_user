@@ -94,10 +94,10 @@
                     @yield('contenido1')
                 </div>
             </div>
-            <script src="/public/js/app.js"></script>
         </div>
     </div>
-
+    
+    @vite('resources/js/app.js')
 
 </body>
 </html>
