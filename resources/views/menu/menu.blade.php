@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styles.css?1.0') }}" media="all" />
     <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css">
     <link rel="icon" type="images" href="images/logo.jpeg">
     <script src="https://kit.fontawesome.com/089c7c9b8e.js" crossorigin="anonymous"></script>
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
+    @vite(['resources/sass/app.css', 'resources/js/app.js'])
     <title>Aplicación Web de Prueba Técnica</title>
 </head>
 <body>
@@ -97,7 +97,7 @@
         </div>
     </div>
     
-    <script src="{{ mix('js/app.js') }}"></script>
+    @vite('resources/js/app.js')
 
 </body>
 </html>
