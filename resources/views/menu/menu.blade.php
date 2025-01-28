@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.2.1-web/css/all.css') }}">
     <link rel="icon" type="images" href="images/logo.jpeg">
     <script src="https://kit.fontawesome.com/089c7c9b8e.js" crossorigin="anonymous"></script>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <title>Aplicación Web de Prueba Técnica</title>
 </head>
 <body>
